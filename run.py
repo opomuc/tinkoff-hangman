@@ -1,4 +1,4 @@
-from game import *
+from game import Hangman
 
-new_game = Hangman()
-new_game.start()
+NEW_GAME = Hangman()
+NEW_GAME.start()
