@@ -11,10 +11,14 @@ You have to guess letters one by one having only 5 attempts.
 The game uses Python 3 which can be downloaded [here](https://www.python.org/downloads/)
 
 ### Install requirements
-MacOS: `brew install python3`
+MacOS:
+```
+brew install python3
+make
+```
 
 ### Play
 MacOS: `python3 run.py`
 
 ### Test
-`./setup.py pytest`
+`make test`
